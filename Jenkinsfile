@@ -27,7 +27,7 @@ pipeline {
     }
 
 }
-        stage('create a file'){
+        stage('create folder'){
             step{
                 sh 'touch kamesh.sh'
             }
